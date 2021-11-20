@@ -1,0 +1,19 @@
+/*  los estilos del tema se encuentra en node_modules/primeng/resources/themes/vela-blue/theme.css
+    solo copiar la propiedad y sera llamado atraves de var(nombrepropiedad) */
+
+html, body {
+    margin: 10px;
+    background-color: var(--surface-b);
+    font-family: var(--font-family);
+}
+
+.text-layout {
+    color: var(--text-color);
+}
+
+/*
+sm- * Pequeños dispositivos	ancho mínimo: 576px
+md- * Dispositivos de tamaño mediano como tabletas	ancho mínimo: 768px
+lg- * Dispositivos con pantalla grande como computadoras de escritorio	ancho mínimo: 992px
+xl- * Monitores de pantalla grande	ancho mínimo: 1200px
+*/
